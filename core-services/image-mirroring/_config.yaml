@@ -517,6 +517,8 @@ supplementalCIImages:
     image: quay.io/ovirt/ansible-runner:ovirt-45
   openshift/nodejs-10-rhel7:latest:
     image: registry.access.redhat.com/rhscl/nodejs-10-rhel7:latest
+  openshift/nodejs-18:latest:
+    image: registry.access.redhat.com/ubi8/nodejs-18:latest
   origin/centos:8:
     image: quay.io/centos/centos:8
   origin/centos:stream8:
